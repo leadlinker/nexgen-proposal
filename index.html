@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proposal for NexGen Materials | LeadLinker</title>
+<meta name="description" content="A custom content engine proposal for NexGen Materials, prepared by LeadLinker. Pay-as-you-go packages to feed sales outreach, nurture procurement buyers, and keep Mike top of mind.">
+<meta property="og:title" content="Proposal for NexGen Materials - LeadLinker">
+<meta property="og:description" content="A custom content engine proposal for NexGen Materials, prepared by LeadLinker.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://leadlinker.io/assets/logo-dark-BUuyMKOS.png">
+<meta property="og:url" content="https://leadlinker.github.io/nexgen-proposal/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Proposal for NexGen Materials - LeadLinker">
+<meta name="twitter:description" content="A custom content engine proposal for NexGen Materials, prepared by LeadLinker.">
+<meta name="twitter:image" content="https://leadlinker.io/assets/logo-dark-BUuyMKOS.png">
+<link rel="icon" type="image/png" href="https://storage.googleapis.com/gpt-engineer-file-uploads/ENnY1cQr8yb82cqirDaLRejSItf1/uploads/1759866240739-LeadLinker%20Logo%20Favicon%20.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --blue:#3B3EF7;
+  --blue-dark:#2E30D4;
+  --blue-light:rgba(59,62,247,0.06);
+  --orange:#F67055;
+  --orange-hover:#e55a3f;
+  --cyan:#33CCFF;
+  --dark:#191D34;
+  --navy:#1a1f3a;
+  --body-text:#626784;
+  --muted:#8E92AB;
+  --light-bg:#F5F6FA;
+  --card-border:rgba(59,62,247,0.1);
+  --white:#fff;
+  --black:#000;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--dark);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased}
+.container{max-width:1080px;margin:0 auto;padding:0 24px}
+.container-narrow{max-width:800px;margin:0 auto;padding:0 24px}
+
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,0.97);backdrop-filter:blur(16px);border-bottom:1px solid rgba(0,0,0,0.06);padding:14px 0}
+.nav .container{display:flex;justify-content:space-between;align-items:center;max-width:1080px}
+.nav-logo img{height:56px;width:auto}
+.nav-cta{background:var(--orange);color:var(--white);font-size:13px;font-weight:700;padding:10px 20px;border-radius:8px;text-decoration:none;transition:background .2s;border:none;cursor:pointer;font-family:inherit}
+.nav-cta:hover{background:var(--orange-hover)}
+
+.card{padding:80px 0;border-bottom:1px solid rgba(0,0,0,0.04)}
+.card:last-of-type{border-bottom:none}
+.card--blue{background:var(--blue);color:var(--white)}
+.card--light{background:var(--light-bg)}
+.card--navy{background:var(--navy);color:var(--white)}
+.card--dark{background:var(--dark);color:var(--white)}
+
+.section-label{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:2.5px;color:var(--blue);margin-bottom:12px}
+.card--navy .section-label,.card--blue .section-label,.card--dark .section-label{color:var(--cyan)}
+h2{font-size:clamp(28px,4vw,40px);font-weight:800;letter-spacing:-0.5px;line-height:1.15;margin-bottom:20px;color:var(--dark)}
+.card--navy h2,.card--blue h2,.card--dark h2{color:var(--white)}
+h3{font-size:20px;font-weight:700;line-height:1.3;margin-bottom:10px;color:var(--dark)}
+.body-text{font-size:16px;color:var(--body-text);line-height:1.7;margin-bottom:16px}
+.body-text:last-child{margin-bottom:0}
+.card--navy .body-text{color:rgba(255,255,255,0.75)}
+.divider-line{border:none;border-top:1px solid rgba(0,0,0,0.08);margin:32px 0 20px}
+.footnote{font-size:14px;color:var(--muted);font-style:italic;text-align:center}
+
+.hero{padding:140px 0 80px;background:var(--blue);color:var(--white);text-align:center}
+.hero h1{font-size:clamp(32px,5vw,52px);font-weight:800;letter-spacing:-1px;line-height:1.1;margin-bottom:20px}
+.hero-sub{font-size:18px;font-weight:400;color:rgba(255,255,255,0.85);max-width:640px;margin:0 auto;line-height:1.5}
+
+.quote-grid{display:grid;gap:16px;margin:28px 0}
+.quote{background:var(--light-bg);border-left:3px solid var(--blue);padding:20px 24px;border-radius:0 8px 8px 0;font-size:16px;color:var(--dark);font-style:italic;line-height:1.6}
+.takeaway-list{display:grid;gap:14px;margin-top:28px}
+.takeaway{display:flex;gap:14px;align-items:flex-start;padding:18px 22px;background:var(--white);border-radius:10px;border:1px solid var(--card-border)}
+.takeaway-num{width:28px;height:28px;border-radius:50%;background:var(--blue);color:var(--white);font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.takeaway p{font-size:15px;color:var(--body-text);line-height:1.55}
+.takeaway strong{color:var(--dark);font-weight:700}
+
+.single-card{background:var(--white);border:1px solid var(--card-border);border-radius:16px;padding:40px;max-width:640px;margin:32px auto 0;box-shadow:0 4px 20px rgba(59,62,247,0.04)}
+.single-card-title{font-size:22px;font-weight:800;color:var(--dark);margin-bottom:18px;text-align:center}
+.single-card-price{font-size:48px;font-weight:800;color:var(--blue);text-align:center;line-height:1;margin-bottom:6px;letter-spacing:-1px}
+.single-card-price small{font-size:16px;color:var(--muted);font-weight:500;margin-left:4px}
+.single-card-sub{text-align:center;color:var(--muted);font-size:14px;margin-bottom:28px}
+.single-card ul{list-style:none;padding:0}
+.single-card ul li{position:relative;padding-left:22px;margin-bottom:12px;font-size:15px;color:var(--dark);line-height:1.5;font-weight:500}
+.single-card ul li::before{content:"";position:absolute;left:0;top:9px;width:8px;height:8px;background:var(--blue);border-radius:50%}
+.single-card-foot{border-top:1px solid rgba(0,0,0,0.06);margin-top:24px;padding-top:20px;font-size:13px;color:var(--muted);font-style:italic;text-align:center}
+
+.package-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:40px;background:var(--navy);border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,0.08)}
+.pkg{padding:40px 32px;position:relative;display:flex;flex-direction:column}
+.pkg + .pkg{border-left:1px solid var(--orange)}
+.pkg-name{font-size:22px;font-weight:800;color:var(--white);margin-bottom:20px}
+.pkg-price{font-size:44px;font-weight:800;color:var(--white);line-height:1;margin-bottom:6px;letter-spacing:-1px}
+.pkg-price small{font-size:15px;color:rgba(255,255,255,0.55);font-weight:500;margin-left:4px}
+.pkg-desc{font-size:14px;color:rgba(255,255,255,0.7);line-height:1.55;margin-top:18px;margin-bottom:22px}
+.pkg-label{font-size:13px;font-weight:700;color:var(--orange);margin-bottom:16px}
+.pkg ul{list-style:none;padding:0;flex:1}
+.pkg ul li{position:relative;padding-left:26px;margin-bottom:14px;font-size:14px;color:rgba(255,255,255,0.88);line-height:1.5;font-weight:500}
+.pkg ul li::before{content:"";position:absolute;left:0;top:3px;width:16px;height:16px;background:var(--orange);-webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='black' d='M9 16.2l-3.5-3.5a1 1 0 1 1 1.4-1.4L9 13.4l7.1-7.1a1 1 0 1 1 1.4 1.4l-7.8 7.8a1 1 0 0 1-1.4 0z'/></svg>") no-repeat center/contain;mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='black' d='M9 16.2l-3.5-3.5a1 1 0 1 1 1.4-1.4L9 13.4l7.1-7.1a1 1 0 1 1 1.4 1.4l-7.8 7.8a1 1 0 0 1-1.4 0z'/></svg>") no-repeat center/contain}
+.pkg-cta{background:var(--orange);color:var(--white);font-size:15px;font-weight:700;padding:14px 24px;border-radius:8px;text-decoration:none;text-align:center;display:block;margin-top:24px;border:none;cursor:pointer;font-family:inherit;transition:background .2s}
+.pkg-cta:hover{background:var(--orange-hover)}
+
+.alc-wrap{background:var(--white);border:1px solid var(--card-border);border-radius:12px;overflow:hidden;margin-top:24px;max-width:800px;margin-left:auto;margin-right:auto}
+.alc-row{display:flex;justify-content:space-between;align-items:center;padding:18px 28px;border-bottom:1px solid var(--card-border);gap:24px}
+.alc-row:last-child{border-bottom:none}
+.alc-row-label{font-size:15px;color:var(--dark);font-weight:500}
+.alc-row-price{font-size:17px;font-weight:700;color:var(--blue);white-space:nowrap}
+
+.combo-box{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:var(--white);border-radius:16px;padding:40px;max-width:640px;margin:32px auto 0;text-align:center}
+.combo-title{font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:var(--cyan);margin-bottom:10px}
+.combo-head{font-size:24px;font-weight:800;margin-bottom:22px}
+.combo-list{list-style:none;padding:0;text-align:left;max-width:380px;margin:0 auto 20px;display:grid;gap:8px}
+.combo-list li{display:flex;justify-content:space-between;font-size:15px;color:rgba(255,255,255,0.9)}
+.combo-list li strong{color:var(--white);font-weight:600}
+.combo-sum{font-size:36px;font-weight:800;color:var(--white);letter-spacing:-0.5px;margin:18px 0 4px}
+.combo-sub{font-size:13px;color:rgba(255,255,255,0.7);font-style:italic}
+
+.simple-list{list-style:none;padding:0;margin-top:16px;display:grid;gap:10px}
+.simple-list li{padding:14px 20px;background:var(--light-bg);border-radius:8px;font-size:15px;color:var(--dark);border:1px solid var(--card-border)}
+.simple-list li strong{font-weight:700;color:var(--blue)}
+
+.closing-quote{font-size:17px;font-weight:500;color:var(--dark);line-height:1.6;padding:24px 28px;border-left:3px solid var(--orange);background:rgba(246,112,85,0.05);border-radius:0 8px 8px 0;margin-top:24px}
+
+.about-card{display:flex;gap:24px;align-items:center;padding:32px;background:var(--light-bg);border-radius:12px;border:1px solid var(--card-border);margin-top:20px}
+.about-photo img{width:80px;height:80px;border-radius:50%;object-fit:cover}
+.about-info h4{font-size:18px;font-weight:700;color:var(--dark);margin-bottom:2px}
+.about-title{font-size:14px;color:var(--muted);margin-bottom:6px}
+.about-links{font-size:14px;margin-bottom:10px}
+.about-links a{color:var(--blue);text-decoration:none;font-weight:500}
+.about-links a:hover{text-decoration:underline}
+.about-info p{font-size:14px;color:var(--body-text);line-height:1.6}
+
+.cta-section{text-align:center}
+.cta-section h2{margin-bottom:20px}
+.cta-reply{margin:24px 0}
+.cta-reply p{font-size:16px;color:rgba(255,255,255,0.9);line-height:1.6}
+.cta-divider{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:2.5px;color:rgba(255,255,255,0.3);margin:20px 0}
+.cta-book{background:var(--orange);color:var(--white);font-size:16px;font-weight:700;padding:16px 32px;border-radius:8px;text-decoration:none;border:none;cursor:pointer;font-family:inherit;transition:background .2s;display:inline-block}
+.cta-book:hover{background:var(--orange-hover)}
+
+.site-footer{background:var(--black);padding:32px 0;text-align:center}
+.site-footer img{height:36px;margin:0 auto 16px}
+.site-footer p{font-size:12px;color:rgba(255,255,255,0.35)}
+
+@media (max-width:900px){
+  .package-grid{grid-template-columns:1fr}
+  .pkg + .pkg{border-left:none;border-top:1px solid var(--orange)}
+}
+@media (max-width:640px){
+  .about-card{flex-direction:column;text-align:center}
+  .alc-row{flex-direction:column;align-items:flex-start;gap:6px}
+  .hero{padding:120px 0 60px}
+  .card{padding:60px 0}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+<div class="container">
+  <div class="nav-logo"><img src="https://leadlinker.io/assets/logo-dark-BUuyMKOS.png" alt="LeadLinker"></div>
+  <button class="nav-cta" onclick="Calendly.initPopupWidget({url:'https://calendly.com/leadlinkerevan/30minute'});return false;">Book a Call</button>
+</div>
+</nav>
+
+<section class="hero">
+<div class="container-narrow">
+  <h1>Proposal for NexGen Materials</h1>
+  <p class="hero-sub">A pay-as-you-go content engine to feed your outreach, nurture procurement buyers, and keep you top of mind through the long sales cycle. No monthly lock-in.</p>
+</div>
+</section>
+
+<section class="card card--light">
+<div class="container-narrow">
+  <div class="section-label">What We Heard</div>
+  <h2>From our conversation on April 17</h2>
+  <div class="quote-grid">
+    <div class="quote">"The mailing list component, that's where we could definitely help you. Build the mailing list on the website, handle the messaging and the sequences."</div>
+    <div class="quote">"You're going to complex organizations where you're speaking to the procurement person. How do we maintain that relationship without being annoying? Through content."</div>
+    <div class="quote">"You're already hiring this woman in India to go and do that outreach. It's about providing her with the assets that allow her to do that job."</div>
+    <div class="quote">"You're going to build the website in Claude. Do that, push it and make it live."</div>
+  </div>
+  <div class="takeaway-list">
+    <div class="takeaway"><div class="takeaway-num">1</div><p><strong>You want to own the website build yourself.</strong> We are out of that scope. Good.</p></div>
+    <div class="takeaway"><div class="takeaway-num">2</div><p><strong>The real problem is long sales cycles to procurement buyers.</strong> You need a reason to keep showing up in their inbox and their LinkedIn feed for months without being annoying. That is a content problem, not a website problem.</p></div>
+    <div class="takeaway"><div class="takeaway-num">3</div><p><strong>Your India VA needs ammunition.</strong> PDFs, articles, clips, reports. Assets she can use in outreach instead of cold-starting every conversation.</p></div>
+  </div>
+</div>
+</section>
+
+<section class="card">
+<div class="container-narrow">
+  <div class="section-label">What We Recommend</div>
+  <h2>A pay-as-you-go content engine with a one-time foundation</h2>
+  <p class="body-text">You buy the Launch Kit once. Then you buy content whenever you need it, in packages that reward volume. No retainer, no lock-in. Your VA gets a steady pipeline of assets, your LinkedIn stays warm with content in your voice, and procurement buyers stay in a nurture sequence that keeps the conversation alive without pestering them.</p>
+</div>
+</section>
+
+<section class="card card--light">
+<div class="container-narrow">
+  <div class="section-label">Foundation</div>
+  <h2>Launch Kit</h2>
+  <p class="body-text">Everything you need live before content production starts paying off. One-time build, delivered within 30 days. Required before any content package.</p>
+  <div class="single-card">
+    <div class="single-card-title">Launch Kit</div>
+    <div class="single-card-price">$2,500<small>one-time</small></div>
+    <div class="single-card-sub">Delivered within 30 days of kickoff</div>
+    <ul>
+      <li>Mailing list setup on your Claude-built site</li>
+      <li>Welcome sequence (1)</li>
+      <li>Nurture sequence for procurement buyers (1)</li>
+      <li>LinkedIn ops: your personal profile and NexGen company page repost workflow</li>
+      <li>Posting calendar template</li>
+      <li>Content SOP doc for your India VA</li>
+    </ul>
+    <div class="single-card-foot">Required before any content package. One time, no monthly fee.</div>
+  </div>
+</div>
+</section>
+
+<section class="card card--navy">
+<div class="container">
+  <div class="section-label">Content Packages</div>
+  <h2 style="text-align:center">Monthly or One-Off</h2>
+  <p class="body-text" style="text-align:center;max-width:680px;margin:0 auto">These are our monthly rates for a steady content engine. Buy any package as a one-off for the same price and decide later if you want to reorder. No contract, no minimum commitment.</p>
+
+  <div class="package-grid">
+    <div class="pkg">
+      <div class="pkg-name">Foundation</div>
+      <div class="pkg-price">$1,000<small>/ month</small></div>
+      <p class="pkg-desc">Built for founders who already create content and want structured written authority without managing writers.</p>
+      <div class="pkg-label">Included each month:</div>
+      <ul>
+        <li>1 long-form authority article (LinkedIn, Substack, or Medium)</li>
+        <li>Based on your existing videos, podcasts, or social posts</li>
+        <li>Fully ghostwritten in your voice</li>
+        <li>12 LinkedIn posts repurposed from existing content (image, carousel, text)</li>
+        <li>Content scheduling and publishing after approval</li>
+        <li>Monthly 30-minute strategy call</li>
+      </ul>
+      <button class="pkg-cta" onclick="Calendly.initPopupWidget({url:'https://calendly.com/leadlinkerevan/30minute'});return false;">Choose Foundation</button>
+    </div>
+
+    <div class="pkg">
+      <div class="pkg-name">Broadcast</div>
+      <div class="pkg-price">$2,000<small>/ month</small></div>
+      <p class="pkg-desc">Designed for founders who want recorded Zoom sessions turned into a structured content engine.</p>
+      <div class="pkg-label">Included each month:</div>
+      <ul>
+        <li>2 Zoom podcast sessions (60 minutes each)</li>
+        <li>Interview, private roundtable, public roundtable, or solo format</li>
+        <li>Full production and editing of both sessions</li>
+        <li>6 short-form clips (3 per session)</li>
+        <li>12 LinkedIn posts derived from sessions</li>
+        <li>2 article-style summaries (1 per session)</li>
+        <li>Content scheduling and publishing after approval</li>
+        <li>1 strategy session per month (60 minutes)</li>
+        <li>Guidance on guest strategy and building a podcast pipeline</li>
+      </ul>
+      <button class="pkg-cta" onclick="Calendly.initPopupWidget({url:'https://calendly.com/leadlinkerevan/30minute'});return false;">Choose Broadcast</button>
+    </div>
+
+    <div class="pkg">
+      <div class="pkg-name">Authority</div>
+      <div class="pkg-price">$3,000<small>/ month</small></div>
+      <p class="pkg-desc">Full executive content support with guest coordination handled.</p>
+      <div class="pkg-label">Included each month:</div>
+      <ul>
+        <li>Everything in Foundation</li>
+        <li>Everything in Broadcast</li>
+        <li>2 additional fully produced Zoom podcast sessions (60 minutes each)</li>
+        <li>Guest sourcing and booking coordination</li>
+        <li>2 strategy sessions per month (45 minutes each)</li>
+      </ul>
+      <button class="pkg-cta" onclick="Calendly.initPopupWidget({url:'https://calendly.com/leadlinkerevan/30minute'});return false;">Choose Authority</button>
+    </div>
+  </div>
+
+  <p class="footnote" style="color:rgba(255,255,255,0.6);margin-top:28px">Any package can be purchased as a one-off at the same price. No auto-billing unless you choose the monthly cadence.</p>
+</div>
+</section>
+
+<section class="card">
+<div class="container-narrow">
+  <div class="section-label">Lead Magnet Assets</div>
+  <h2>The ammunition your India VA needs</h2>
+  <p class="body-text">Research-backed assets she can send in outreach instead of cold-starting every conversation. Each bundle includes the asset, the capture page, and the follow-up sequence.</p>
+  <div class="single-card">
+    <div class="single-card-title">Lead Magnet + Email Capture + Sequence</div>
+    <div class="single-card-price">$1,500<small>each</small></div>
+    <div class="single-card-sub">Turnaround: 3 weeks per asset</div>
+    <ul>
+      <li>One research-backed PDF report, guide, or capability asset</li>
+      <li>Lead capture landing page, hosted and live</li>
+      <li>Welcome delivery email plus 4-email nurture sequence</li>
+      <li>Optimized for VA outreach: she shares the link, prospect downloads, we sequence them</li>
+    </ul>
+  </div>
+</div>
+</section>
+
+<section class="card card--light">
+<div class="container-narrow">
+  <div class="section-label">À La Carte</div>
+  <h2>Single items, no package required</h2>
+  <p class="body-text">For when you want something specific and don't need a full package.</p>
+  <div class="alc-wrap">
+    <div class="alc-row"><span class="alc-row-label">Long-form article (standalone)</span><span class="alc-row-price">$650</span></div>
+    <div class="alc-row"><span class="alc-row-label">LinkedIn ghostwriting batch (12 posts)</span><span class="alc-row-price">$600</span></div>
+    <div class="alc-row"><span class="alc-row-label">Single Zoom podcast session + 3 clips + 1 article summary</span><span class="alc-row-price">$1,000</span></div>
+    <div class="alc-row"><span class="alc-row-label">Capture page (targeted search intent)</span><span class="alc-row-price">$1,200</span></div>
+    <div class="alc-row"><span class="alc-row-label">Extra email sequence (reactivation, event follow-up, win-back)</span><span class="alc-row-price">$900</span></div>
+    <div class="alc-row"><span class="alc-row-label">Quarterly strategy and metrics review call</span><span class="alc-row-price">$500</span></div>
+  </div>
+</div>
+</section>
+
+<section class="card">
+<div class="container-narrow">
+  <div class="section-label">Starter Combo</div>
+  <h2>A suggested first move</h2>
+  <p class="body-text">Not required. Just a clean shape that builds real momentum in the first 60 days: the foundation, a full month of Zoom-driven content, and one asset in your VA's hands.</p>
+  <div class="combo-box">
+    <div class="combo-title">Suggested Starter</div>
+    <div class="combo-head">Launch Kit + Broadcast + 1 Lead Magnet</div>
+    <ul class="combo-list">
+      <li><strong>Launch Kit</strong><span>$2,500</span></li>
+      <li><strong>Broadcast (one-off)</strong><span>$2,000</span></li>
+      <li><strong>1 Lead Magnet bundle</strong><span>$1,500</span></li>
+    </ul>
+    <div class="combo-sum">$6,000</div>
+    <div class="combo-sub">One-time total. Reorder anything you want after.</div>
+  </div>
+</div>
+</section>
+
+<section class="card card--light">
+<div class="container-narrow">
+  <div class="section-label">On SEO</div>
+  <h2>Two lanes that coexist</h2>
+  <p class="body-text">Long-term SEO is subtle and expensive when done properly. Most of it comes down to backlinks, technical structure, and sustained link campaigns, not just publishing articles. Two lanes can coexist:</p>
+  <ul class="simple-list">
+    <li><strong>Thought leadership content.</strong> What this proposal covers. Articles, podcasts, lead magnet assets that feed your sales process and your VA's outreach. Not built for Google.</li>
+    <li><strong>Search-driven SEO.</strong> If you genuinely want organic traffic landing on your capability pages, that is a separate engagement with a specialist SEO partner we work with. It is not cheap and has to be done correctly.</li>
+  </ul>
+  <p class="body-text" style="margin-top:20px">Either way, LeadLinker handles your lead capture, email strategy, and sequence writing. Happy to scope the SEO side separately if it becomes relevant.</p>
+</div>
+</section>
+
+<section class="card">
+<div class="container-narrow">
+  <div class="section-label">Timeline</div>
+  <h2>What delivery looks like</h2>
+  <p class="footnote" style="text-align:left;margin-bottom:20px">Every item delivered inside its stated timeline below, or we keep working at no charge until it ships.</p>
+  <ul class="simple-list">
+    <li><strong>Launch Kit:</strong> 30 days from kickoff</li>
+    <li><strong>Foundation package:</strong> first deliverables in week 2, full monthly cycle thereafter</li>
+    <li><strong>Broadcast package:</strong> first session scheduled within 2 weeks, content landing 2 weeks after each session</li>
+    <li><strong>Authority package:</strong> same as Broadcast, with guest coordination starting in week 1</li>
+    <li><strong>Lead Magnet bundle:</strong> 3 weeks per asset</li>
+    <li><strong>À la carte items:</strong> 2 to 3 weeks depending on type</li>
+  </ul>
+</div>
+</section>
+
+<section class="card card--light">
+<div class="container-narrow">
+  <div class="section-label">Payment Terms</div>
+  <h2>How billing works</h2>
+  <ul class="simple-list">
+    <li><strong>Launch Kit:</strong> 50% on signature, 50% on delivery</li>
+    <li><strong>Monthly packages:</strong> billed monthly in advance, cancel anytime, no refund on current month</li>
+    <li><strong>One-off packages, lead magnets, à la carte:</strong> paid in full at time of order</li>
+  </ul>
+</div>
+</section>
+
+<section class="card">
+<div class="container-narrow">
+  <div class="section-label">Our Goal</div>
+  <h2>A long-term partnership</h2>
+  <p class="body-text">We would love to become a long-term growth partner to NexGen Materials, not a one-off vendor. Everything in this proposal is built to start small, prove its value, and scale into whatever shape serves your business best.</p>
+  <p class="body-text">The monthly packages exist because rhythm compounds. The à la carte and one-off options exist because we do not believe in locking you into something you are not ready for.</p>
+  <div class="closing-quote">Pick whatever fits right now. We will be here when you want more.</div>
+</div>
+</section>
+
+<section class="card card--light">
+<div class="container-narrow">
+  <div class="section-label">About</div>
+  <h2>Who you are working with</h2>
+  <div class="about-card">
+    <div class="about-photo"><img src="https://leadlinker.io/assets/evan-escauriza-CaqATy2y.jpg" alt="Evan Escauriza"></div>
+    <div class="about-info">
+      <h4>Evan Escauriza</h4>
+      <div class="about-title">Founder, LeadLinker</div>
+      <div class="about-links"><a href="mailto:evan@leadlinker.io">evan@leadlinker.io</a> · <a href="https://leadlinker.io" target="_blank" rel="noopener">leadlinker.io</a></div>
+      <p>LeadLinker is a done-for-you B2B content and pipeline agency. We build and operate content engines that keep complex, long-cycle sales conversations alive through authority content, nurture infrastructure, and outreach-ready assets.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="card card--blue cta-section">
+<div class="container-narrow">
+  <div class="section-label">Next Steps</div>
+  <h2>Ready when you are</h2>
+  <div class="cta-reply">
+    <p>Reply to the message I sent you with the packages you want to start with, or book a short call below and we will finalize scope together.</p>
+  </div>
+  <div class="cta-divider">or</div>
+  <button class="cta-book" onclick="Calendly.initPopupWidget({url:'https://calendly.com/leadlinkerevan/30minute'});return false;">Book a Call</button>
+</div>
+</section>
+
+<footer class="site-footer">
+  <img src="https://leadlinker.io/assets/logo-light-Lz6UO-FI.png" alt="LeadLinker">
+  <p>&copy; 2026 LeadLinker. All rights reserved.</p>
+</footer>
+
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</body>
+</html>
