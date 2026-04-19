@@ -107,6 +107,18 @@ h3{font-size:20px;font-weight:700;line-height:1.3;margin-bottom:10px;color:var(-
 .alc-row-label{font-size:15px;color:var(--dark);font-weight:500}
 .alc-row-price{font-size:17px;font-weight:700;color:var(--blue);white-space:nowrap}
 
+.starter-card{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:var(--white);border-radius:20px;padding:48px 40px;margin-top:32px;box-shadow:0 20px 60px rgba(59,62,247,0.18)}
+.starter-card-head{text-align:center;margin-bottom:40px;padding-bottom:32px;border-bottom:1px solid rgba(255,255,255,0.15)}
+.starter-tag{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;color:var(--cyan);margin-bottom:12px}
+.starter-price{font-size:56px;font-weight:800;color:var(--white);letter-spacing:-1.5px;line-height:1;margin-bottom:10px}
+.starter-price small{font-size:18px;font-weight:500;color:rgba(255,255,255,0.65);margin-left:10px}
+.starter-sub{font-size:14px;color:rgba(255,255,255,0.75);font-style:italic}
+.starter-group{margin-bottom:32px}
+.starter-group:last-of-type{margin-bottom:0}
+.starter-group h4{font-size:13px;font-weight:700;color:var(--cyan);text-transform:uppercase;letter-spacing:1.8px;margin-bottom:16px}
+.starter-group ul{list-style:none;padding:0}
+.starter-group ul li{position:relative;padding-left:26px;margin-bottom:11px;font-size:15px;color:rgba(255,255,255,0.92);line-height:1.55}
+.starter-group ul li::before{content:"";position:absolute;left:0;top:7px;width:7px;height:7px;background:var(--cyan);border-radius:50%}
 .combo-box{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:var(--white);border-radius:16px;padding:40px;max-width:640px;margin:32px auto 0;text-align:center}
 .combo-title{font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:var(--cyan);margin-bottom:10px}
 .combo-head{font-size:24px;font-weight:800;margin-bottom:22px}
@@ -195,48 +207,75 @@ h3{font-size:20px;font-weight:700;line-height:1.3;margin-bottom:10px;color:var(-
 
 <section class="card card--light">
 <div class="container-narrow">
-  <div class="section-label">Foundation</div>
-  <h2>Launch Kit</h2>
-  <p class="body-text">Everything you need live before content production starts paying off. One-time build, delivered within 30 days. Required before any content package.</p>
-  <div class="single-card">
-    <div class="single-card-title">Launch Kit</div>
-    <div class="single-card-price">$2,500<small>one-time</small></div>
-    <div class="single-card-sub">Delivered within 30 days of kickoff</div>
-    <ul>
-      <li>Mailing list setup on your Claude-built site, wired to your email platform of choice</li>
-      <li>Welcome sequence (3 emails) written and loaded</li>
-      <li>Nurture sequence for procurement buyers (6 emails over 90 days) written and loaded</li>
-      <li>LinkedIn ops: your personal profile and NexGen company page repost workflow</li>
-      <li>Monthly posting calendar template</li>
-      <li>Content SOP doc so your India VA knows how to use every asset we produce</li>
-    </ul>
+  <div class="section-label">Starter Package</div>
+  <h2>Everything you need to launch the engine</h2>
+  <p class="body-text">One move. A full content cycle, two assets your VA can deploy tomorrow, extra articles for your site, and a batch of LinkedIn posts. Everything delivered within 60 days. After this, subscribe to a monthly package or order one-offs as you need them.</p>
+
+  <div class="starter-card">
+    <div class="starter-card-head">
+      <div class="starter-tag">Starter Package</div>
+      <div class="starter-price">$6,000<small>one-time</small></div>
+      <div class="starter-sub">Everything delivered within 60 days of kickoff</div>
+    </div>
+
+    <div class="starter-group">
+      <h4>One Full Broadcast Cycle &middot; $2,000 value</h4>
+      <ul>
+        <li>2 Zoom podcast sessions (60 minutes each)</li>
+        <li>Interview, private roundtable, public roundtable, or solo format</li>
+        <li>Full production and editing of both sessions</li>
+        <li>6 short-form clips (3 per session) for LinkedIn</li>
+        <li>12 LinkedIn posts derived from sessions</li>
+        <li>2 article-style summaries, published on your website and repurposed for LinkedIn</li>
+        <li>Content scheduling and publishing after approval</li>
+        <li>1 strategy session (60 minutes)</li>
+        <li>Guidance on guest strategy and building a podcast pipeline</li>
+      </ul>
+    </div>
+
+    <div class="starter-group">
+      <h4>Two Lead Magnet Assets &middot; $3,000 value</h4>
+      <ul>
+        <li>2 research-backed PDF reports, guides, or capability assets</li>
+        <li>2 lead capture landing pages, hosted and live</li>
+        <li>2 welcome delivery emails plus 4-email nurture sequences each</li>
+        <li>Optimized for VA outreach: she shares the link, prospect downloads, we sequence them</li>
+      </ul>
+    </div>
+
+    <div class="starter-group">
+      <h4>Two Standalone Articles &middot; $1,300 value</h4>
+      <ul>
+        <li>2 long-form authority articles, fully ghostwritten in your voice</li>
+        <li>Published on your website and repurposed for LinkedIn</li>
+        <li>Topic selection aligned with your target procurement buyers</li>
+      </ul>
+    </div>
+
+    <div class="starter-group">
+      <h4>One LinkedIn Post Batch &middot; $600 value</h4>
+      <ul>
+        <li>12 LinkedIn posts ghostwritten in your voice</li>
+        <li>Image, carousel, or text format</li>
+        <li>Repurposed from your existing content and the Zoom sessions</li>
+      </ul>
+    </div>
+
+    <div style="margin-top:36px;padding-top:28px;border-top:1px solid rgba(255,255,255,0.15);text-align:center">
+      <div style="font-size:14px;color:rgba(255,255,255,0.7);margin-bottom:6px">Total à la carte value: $6,900</div>
+      <div style="font-size:18px;color:var(--cyan);font-weight:700">Starter price: $6,000 &middot; Save $900</div>
+    </div>
   </div>
 
-  <h3 style="margin-top:48px;margin-bottom:16px">What the sequences actually contain</h3>
-  <p class="body-text">So there is no ambiguity about what we are writing.</p>
-
-  <div style="margin-top:24px">
-    <h3 style="font-size:16px;color:var(--blue);margin-bottom:12px">Welcome Sequence (3 emails)</h3>
-    <ul class="simple-list">
-      <li><strong>Email 1:</strong> Immediate lead magnet delivery on signup. No silence, instant value.</li>
-      <li><strong>Email 2:</strong> Positioning email that frames your approach and why it matters.</li>
-      <li><strong>Email 3:</strong> Soft invitation to reply or book a call, with a clear path forward.</li>
-    </ul>
-  </div>
-
-  <div style="margin-top:28px">
-    <h3 style="font-size:16px;color:var(--blue);margin-bottom:12px">Nurture Sequence for Procurement Buyers (6 emails over 90 days)</h3>
-    <ul class="simple-list">
-      <li><strong>Email 1:</strong> Educational framing that positions your thesis on domestic sourcing and credibility.</li>
-      <li><strong>Email 2:</strong> A case narrative using a real proof point (partnership, lab work, or project) to build credibility.</li>
-      <li><strong>Email 3:</strong> Industry insight that helps them understand the landscape they are operating in.</li>
-      <li><strong>Email 4:</strong> Funding or regulatory context that adds urgency without feeling like a pitch.</li>
-      <li><strong>Email 5:</strong> Social proof plus a soft CTA to schedule a conversation.</li>
-      <li><strong>Email 6:</strong> Final follow-up with a clear next step for buyers ready to move.</li>
-    </ul>
-  </div>
-
-  <p class="footnote" style="text-align:left;margin-top:28px">Required before any content package. One time, no monthly fee.</p>
+  <h3 style="margin-top:48px;margin-bottom:16px">What each lead magnet sequence contains</h3>
+  <p class="body-text">So there is no ambiguity about what we are writing. Each of the two lead magnet bundles ships with this 5-email sequence.</p>
+  <ul class="simple-list">
+    <li><strong>Email 1:</strong> Instant delivery of the asset on signup. No silence, instant value.</li>
+    <li><strong>Email 2:</strong> Context email that reinforces the thesis behind the asset.</li>
+    <li><strong>Email 3:</strong> Educational insight tied to the asset's topic, building credibility.</li>
+    <li><strong>Email 4:</strong> Social proof plus a soft CTA to start a conversation.</li>
+    <li><strong>Email 5:</strong> Final follow-up with a clear next step for buyers ready to move.</li>
+  </ul>
 </div>
 </section>
 
@@ -339,25 +378,6 @@ h3{font-size:20px;font-weight:700;line-height:1.3;margin-bottom:10px;color:var(-
 
 <section class="card">
 <div class="container-narrow">
-  <div class="section-label">Starter Combo</div>
-  <h2>A suggested first move</h2>
-  <p class="body-text">Not required. Just a clean shape that builds real momentum in the first 60 days: the foundation, a full month of Zoom-driven content, and one asset in your VA's hands.</p>
-  <div class="combo-box">
-    <div class="combo-title">Suggested Starter</div>
-    <div class="combo-head">Launch Kit + Broadcast + 1 Lead Magnet</div>
-    <ul class="combo-list">
-      <li><strong>Launch Kit</strong><span>$2,500</span></li>
-      <li><strong>Broadcast (one-off)</strong><span>$2,000</span></li>
-      <li><strong>1 Lead Magnet bundle</strong><span>$1,500</span></li>
-    </ul>
-    <div class="combo-sum">$6,000</div>
-    <div class="combo-sub">One-time total. Reorder anything you want after.</div>
-  </div>
-</div>
-</section>
-
-<section class="card card--light">
-<div class="container-narrow">
   <div class="section-label">On SEO</div>
   <h2>Two lanes that coexist</h2>
   <p class="body-text">Long-term SEO is subtle and expensive when done properly. Most of it comes down to backlinks, technical structure, and sustained link campaigns, not just publishing articles. Two lanes can coexist:</p>
@@ -376,7 +396,7 @@ h3{font-size:20px;font-weight:700;line-height:1.3;margin-bottom:10px;color:var(-
   <h2>What delivery looks like</h2>
   <p class="footnote" style="text-align:left;margin-bottom:20px">Every item delivered inside its stated timeline below, or we keep working at no charge until it ships.</p>
   <ul class="simple-list">
-    <li><strong>Launch Kit:</strong> 30 days from kickoff</li>
+    <li><strong>Starter Package:</strong> everything delivered within 60 days of kickoff</li>
     <li><strong>Foundation package:</strong> first deliverables in week 2, full monthly cycle thereafter</li>
     <li><strong>Broadcast package:</strong> first session scheduled within 2 weeks, content landing 2 weeks after each session</li>
     <li><strong>Authority package:</strong> same as Broadcast, with guest coordination starting in week 1</li>
@@ -391,7 +411,7 @@ h3{font-size:20px;font-weight:700;line-height:1.3;margin-bottom:10px;color:var(-
   <div class="section-label">Payment Terms</div>
   <h2>How billing works</h2>
   <ul class="simple-list">
-    <li><strong>Launch Kit:</strong> paid in full at time of order</li>
+    <li><strong>Starter Package:</strong> paid in full at time of order</li>
     <li><strong>Monthly packages:</strong> billed monthly in advance, cancel anytime, no refund on the current month</li>
     <li><strong>One-off packages, lead magnets, and à la carte items:</strong> paid in full at time of order</li>
   </ul>
